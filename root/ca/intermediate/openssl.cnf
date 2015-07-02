@@ -7,7 +7,7 @@ default_ca = CA_default
 
 [ CA_default ]
 # Directory and file locations.
-dir               = C:/OpenSSL-Win32/bin/Test/root/ca/intermediate
+dir               = C:/OpenSSL-Win32/bin/Test/TestCerts/root/ca/intermediate
 certs             = $dir/certs
 crl_dir           = $dir/crl
 new_certs_dir     = $dir/newcerts
@@ -78,11 +78,11 @@ commonName                      = Common Name
 emailAddress                    = Email Address
 
 # Optionally, specify some defaults.
-countryName_default             = GB
-stateOrProvinceName_default     = England
-localityName_default            =
-0.organizationName_default      = Alice Ltd
-organizationalUnitName_default  =
+countryName_default             = DE
+stateOrProvinceName_default     = NRW
+localityName_default            = Minden
+0.organizationName_default      = FH Bielefeld
+organizationalUnitName_default  = PKI42
 emailAddress_default            =
 
 [ v3_ca ]
@@ -118,6 +118,7 @@ subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid,issuer:always
 keyUsage = critical, digitalSignature, keyEncipherment
 extendedKeyUsage = serverAuth
+authorityInfoAccess = OCSP;URI:http://vm02.srvhub.de:3000
 
 [ crl_ext ]
 # Extension for CRLs (`man x509v3_config`).
