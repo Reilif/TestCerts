@@ -1,0 +1,1 @@
+V	250628171208Z		1000	unknown	/C=DE/ST=NRW/O=FH Bielefeld/OU=PKI42/CN=PKI42 Intermediate CA
