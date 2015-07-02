@@ -103,8 +103,8 @@ Verifying - Enter pass phrase for intermediate.key.pem: secretpassword
 Hierbei auf die richtigen Daten achten. Sollten identisch mit dem Root-Ca sein, außer der CN. Achtet auch auf das richtige Config-File.
 
 ```bash
-# cd /root/ca
-# openssl req -config intermediate/openssl.cnf -new -sha256 \
+ cd /root/ca
+ openssl req -config intermediate/openssl.cnf -new -sha256 \
       -key intermediate/private/intermediate.key.pem \
       -out intermediate/csr/intermediate.csr.pem
 
@@ -251,8 +251,8 @@ Da für Server-Zertifikate die CSR vom Kunden erzeugt werden können die Schritt
 ### CSR erzeugen
 
 ```bash
-# cd /root/ca
-# openssl req -config intermediate/openssl.cnf \
+ cd /root/ca
+ openssl req -config intermediate/openssl.cnf \
       -key intermediate/private/RobinRasch.key.pem \
       -new -sha256 -out intermediate/csr/RobinRasch.csr.pem
 
