@@ -12,3 +12,4 @@ V	160712125527Z		100A	unknown	/C=DE/ST=NRW/L=Minden/O=FH Bielefeld/OU=PKI42/CN=3
 V	160712125736Z		100B	unknown	/C=DE/ST=NRW/L=Minden/O=FH Bielefeld/OU=PKI42/CN=bla
 V	160718102836Z		100C	unknown	/C=DE/ST=NRW/L=Minden/O=Demo Web Server Inc./OU=Webservices/CN=srv02.srvhub.de/emailAddress=chrisitan.holzberger@fh-bielefeld.de
 R	160718122205Z	150709130131Z	100D	unknown	/C=DE/ST=NRW/L=Minden/O=Test Webserver Inc./OU=FH Bielefeld/CN=vm02.srvhub.de/emailAddress=christian.holzberger@fh-bielefeld.de
+V	160718130958Z		100E	unknown	/C=DE/ST=NRW/L=Minden/O=FH Bielefeld/OU=PKI42/CN=apoertner@stinkt.de
